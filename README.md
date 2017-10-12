@@ -20,7 +20,7 @@ Done!
 
 Works only in browsers with pointer events support.
 
-https://htmlpreview.github.io/?https://github.com/mariusclaret/ripple/blob/master/demo.html
+https://htmlpreview.github.io/?https://github.com/mariusclaret/ripple-effect/blob/master/demo.html
 
 ## Author
 
