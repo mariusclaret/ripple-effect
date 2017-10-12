@@ -13,8 +13,8 @@ document.onpointerdown = function (event) {
     while (target && target.classList && !target.classList.contains("ripple")) target = target.parentNode;
     if (!target || !target.classList || !target.classList.contains("ripple")) return;
 
-    const x = event.pageX - target.getBoundingClientRect().left;
-    const y = event.pageY - target.getBoundingClientRect().top;
+    const x = event.x - target.getBoundingClientRect().left;
+    const y = event.y - target.getBoundingClientRect().top;
     const maxW = Math.max(x, target.offsetWidth - x);
     const maxH = Math.max(y, target.offsetHeight - y);
     const size = Math.sqrt(maxW * maxW + maxH * maxH);
