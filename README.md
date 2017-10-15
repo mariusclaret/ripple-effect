@@ -2,7 +2,7 @@
 
 Get a beautiful Material Design ripple effect in pure JavaScript for your website in less than 1 minute. The script is not blocking rendering on the first paint, because the effect only gets fired on `onpointerdown` and `onpointerup` events on the `document`.
 
-![Ripple Effect Demo Gif](https://i.imgur.com/LjVsyBP.gif)
+![Ripple Effect Demo Gif](https://i.imgur.com/WEw6spv.gif)
 
 ## Getting Started
 
